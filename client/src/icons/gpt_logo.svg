@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200" width="200" height="200">
+    <!-- Background Circle -->
+    <circle cx="100" cy="100" r="95" fill="#f3f4f6" stroke="#2d6a4f" stroke-width="10" />
+
+    <!-- Graduation Cap Icon for Education -->
+    <g fill="#40916c">
+        <polygon points="100,50 60,80 140,80" />
+        <rect x="95" y="80" width="10" height="40" fill="#40916c" />
+        <circle cx="100" cy="125" r="5" fill="#40916c" />
+    </g>
+
+    <!-- Passport Icon -->
+    <rect x="70" y="90" width="60" height="80" rx="10" ry="10" fill="#1b4332" stroke="#ffffff" stroke-width="3" />
+    <circle cx="100" cy="120" r="10" fill="#ffffff" />
+    <line x1="90" y1="140" x2="110" y2="140" stroke="#ffffff" stroke-width="2" />
+
+</svg>

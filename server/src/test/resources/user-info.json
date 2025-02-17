@@ -1,0 +1,17 @@
+{
+  "eduperson_principal_name": "eduperson_principal_name",
+  "email": "email",
+  "email_verified": true,
+  "family_name": "Doe",
+  "given_name": "John",
+  "name": "John Doe",
+  "nickname": "John Doe",
+  "preferred_username": "John Doe",
+  "schac_home_organization": "example.com",
+  "scope": "openid",
+  "sub": "sub",
+  "uids": [
+    "1234567890"
+  ],
+  "updated_at": 1606133230
+}

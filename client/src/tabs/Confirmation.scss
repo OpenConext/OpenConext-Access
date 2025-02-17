@@ -1,0 +1,50 @@
+@use "../styles/vars.scss" as *;
+
+
+div.confirmation {
+    margin: 40px 0 25px 0;
+    border: 1px solid var(--sds--color--gray--300);
+    border-radius: 8px;
+    max-width: $verification-width;
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+        margin: 25px 25px 0 25px;
+    }
+
+    .sds--toaster {
+        max-width: max-content;
+        width: 100%;
+        margin: 20px auto 30px auto;
+    }
+
+    .img-container {
+        display: flex;
+        padding: 20px;
+
+        svg {
+            margin: auto;
+            width: 460px;
+            height: auto;
+
+            @media (max-width: $verification-width) {
+                width: 310px;
+            }
+
+        }
+    }
+
+    .button-container {
+        display: flex;
+        padding: 20px;
+
+        button {
+            margin: auto;
+            max-width: 360px;
+        }
+    }
+
+
+}
+

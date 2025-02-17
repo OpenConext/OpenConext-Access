@@ -1,0 +1,15 @@
+.access {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.sds--modal.sds--backdrop {
+    z-index: 99;
+}
+
+.react-datepicker-popper {
+    z-index: 3 !important;
+}

@@ -1,0 +1,126 @@
+@use "../styles/vars.scss" as *;
+
+
+div.control {
+    margin: 25px 0 25px 0;
+
+    .control-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+        max-width: $verification-width;
+
+        @media (max-width: $medium) {
+            flex-direction: column;
+        }
+
+        span.code {
+            color: var(--sds--color--blue--400);
+        }
+
+        button {
+            margin-left: auto;
+        }
+
+    }
+
+    p.inner-html span {
+        font-weight: 600;
+    }
+
+    .control-validation {
+        border: 1px solid var(--sds--color--gray--300);
+        border-radius: 8px;
+        max-width: $verification-width;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .sds--toaster {
+            max-width: max-content;
+        }
+    }
+
+    .validation-item {
+        display: flex;
+        align-items: center;
+        border: 2px solid var(--sds--color--gray--200);
+        border-radius: 2px;
+        padding: 10px;
+
+        &.column {
+            flex-direction: column;
+            align-items: normal;
+        }
+
+        .sds--tooltip-parent {
+            margin-left: auto;
+            padding-left: 8px;
+        }
+
+    }
+
+    .validation-item-inner {
+        display: flex;
+        align-items: center;
+
+        &.birthday {
+            margin-top: 25px;
+            position: relative;
+
+            &.invalid {
+                color: var(--sds--color--red--400);
+            }
+
+            &.valid {
+                font-weight: 600;
+            }
+        }
+
+        .sds--tooltip-parent {
+            margin-left: auto;
+        }
+
+    }
+
+    .sds--toaster {
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .code-validation {
+        padding: 15px 0 0 0;
+
+        button {
+            margin-left: auto;
+        }
+    }
+
+    .error {
+        margin: 15px 0;
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--sds--color--red--400);
+    }
+
+    .react-datepicker-wrapper {
+        opacity: 0;
+        max-width: 60px;
+    }
+
+    .calendar {
+        margin: 0 12px 0 auto;
+        padding-left: 20px;
+        cursor: pointer;
+        z-index: 2;
+        color: var(--sds--palette--main-color--400);
+
+        svg {
+            width: 32px;
+            height: auto;
+            cursor: pointer;
+        }
+    }
+
+}

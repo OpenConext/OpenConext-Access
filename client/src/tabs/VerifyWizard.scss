@@ -1,0 +1,36 @@
+@use "../styles/vars.scss" as *;
+
+.code-validation {
+    padding: 25px;
+    display: flex;
+    gap: 20px;
+
+    @media (max-width: $medium) {
+        padding: 5px;
+        flex-direction: column;
+    }
+
+    .sds--code-validation-container {
+        margin-right: 25px;
+
+        .sds--code-validation {
+
+            @media (max-width: 520px) {
+                flex-direction: column;
+            }
+
+            input.value {
+                width: 48px;
+                height: 48px;
+                padding-left: 16px;
+                font-size: 24px;
+
+                @media (max-width: 520px) {
+                    margin: 0 auto;
+                }
+            }
+
+        }
+    }
+
+}

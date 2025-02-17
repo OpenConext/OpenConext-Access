@@ -1,0 +1,44 @@
+@use "../styles/vars.scss" as *;
+
+
+div.verification {
+    margin: 40px 0 25px 0;
+    border: 1px solid var(--sds--color--gray--300);
+    border-radius: 8px;
+    max-width: $verification-width;
+
+    h4 {
+        margin: 25px 25px 0 25px;
+
+    }
+
+    .disclaimer {
+        display: flex;
+        align-content: center;
+        padding: 15px;
+        margin-top: 25px;
+        background-color: var(--sds--color--blue--200);
+        border: 1px solid var(--sds--color--blue--200);
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+
+        p {
+            font-weight: 600;
+            margin-left: 15px;
+        }
+
+        svg {
+            color: var(--sds--color--white);
+            circle.bg {
+                fill:var(--sds--color--blue--400);
+            }
+        }
+    }
+
+    .sds--error-indicator {
+        margin-left: 25px;
+        font-weight: 600;
+    }
+
+}
+
